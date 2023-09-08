@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="resultpane" prefHeight="590.0" prefWidth="901.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.voters_software.Result_Page">
+   <children>
+      <ImageView fitHeight="605.0" fitWidth="901.0" layoutY="-10.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Java-Resources/MyJavaWorks/Bar_chart-social%20copy.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="132.0" layoutY="23.0" prefHeight="46.0" prefWidth="369.0" text="Provisional Results" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="36.0" />
+         </font>
+      </Label>
+      <Pane layoutX="117.0" layoutY="431.0" prefHeight="150.0" prefWidth="703.0" styleClass="loginbackpane" stylesheets="@Css.css" />
+      <Pane layoutX="115.0" layoutY="83.0" prefHeight="338.0" prefWidth="703.0" style="-fx-background-color: #e1dfdf;" styleClass="voterpane3" stylesheets="@Css.css" />
+      <BarChart fx:id="my_barchart" layoutX="173.0" layoutY="94.0" prefHeight="314.0" prefWidth="587.0" style="-fx-background-color: BLUE;" stylesheets="@Css.css">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+         <styleClass>
+            <String fx:value="voterpane3" />
+            <String fx:value="chart-bar" />
+         </styleClass>
+      </BarChart>
+   </children>
+</AnchorPane>

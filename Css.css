@@ -1,0 +1,304 @@
+.vbox1{
+-fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #4b0af0ad 0.0%, #ffaa00 100.0%);
+-fx-background-radius:30 0 0 30;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,2),19,0.0,0,2);
+}
+
+.Loginbtn1{
+-fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #d9e007e7 0.0%, #f9faebef 100.0%);
+-fx-background-radius:30 30 30 30;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,2),10,0.0,0,2);
+}
+
+.Regbtn
+{
+
+-fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #031736e5 0.0%, #ededed 100.0%);
+-fx-background-radius:30 30 30 30;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,2),10,0.0,0,2)
+}
+
+.chckbox1{
+-fx-background-color:#f5f5f5;
+-fx-background-radius:30 30 30 30;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,2),6,0.0,0,3);
+}
+
+.my_button:hover{
+-fx-background-color:#f5f5f5;
+}
+
+#
+.my_button2:hover
+{
+-fx-background-color:#f5f5f5;
+-fx-text-fill:black;
+}
+
+.panel_a
+{
+-fx-background-color:#f8f8ff;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.2),10,0.0,0,3);
+}
+
+.panel_b
+{
+-fx-background-color:#ffe5b4;
+}
+
+.panel_c
+{
+-fx-background-color:#808080;
+}
+
+.panel_d
+{
+-fx-background-color:#faf9f6;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.2),10,0.0,0,3);
+}
+
+
+
+
+.hbox1
+{
+-fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #b3a7e8e5 0.0%, #7cf56c 100.0%);
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,1),7,0.0,0,1);
+}
+.textbox1
+{
+-fx-background-color:white;
+-fx-background-radius:0 30 30 0;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,1),10,0,2,2);
+}
+
+.topPane
+{
+-fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #ced8e8e5 0.0%, #2211bc 100.0%);
+}
+
+.leftpane
+{
+-fx-background-color:black;
+}
+
+.leftpanebtn1
+{
+-fx-background-color:black;
+-fx-background-radius:30 30 30 30;
+}
+
+.pane
+{
+-fx-background-color:#ffefd5;
+}
+
+.pane1
+{
+-fx-background-color:white;
+-fx-background-radius:30 30 30 30;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.2),15,0,2,2);
+}
+
+.pane2
+{
+-fx-background-color:white;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.2),17,0,3,5);
+
+}
+
+.pane3
+{
+-fx-background-color:white;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.2),17,0,3,5);
+-fx-background-radius:0 30 0 30;
+}
+
+.my_button4:hover
+{
+fx-background-color:white;
+}
+
+.red_button{
+-fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #daee24e5 0.0%, #b90606 100.0%);
+-fx-background-radius:30 30 30 30;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,2),10,0.0,0,2)
+}
+
+.registration
+{
+-fx-background-color:white;
+}
+
+.my_regbtn
+{
+-fx-background-color:#c1dde8;
+-fx-background-radius:30 30 30 30;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.1),10,0.0,0,2)
+}
+
+.effect_btn:hover
+{
+-fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #e4ecfc 0.0%, #c3bff2 100.0%);
+-fx-text-fill:black;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.5),10,0.0,0,2)
+}
+
+.voting_toppane
+{
+-fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #7064ee 0.0%, #270670 100.0%);
+}
+
+.voting_sidepane1
+{
+-fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #f5f4ff 0.0%, #e8deff 100.0%);
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.3),10,0.0,0,2);
+}
+
+.voting_sidepane2
+{
+-fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #f5f4ff 0.0%, #9268ee 100.0%);
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.3),10,0.0,0,2);
+}
+
+.voting_right_sidepane1
+{
+-fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #f5f4ff 0.0%, #e3ee97 100.0%);
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.3),10,0.0,0,2);
+}
+
+.voting_right_sidepane2
+{
+-fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #f5f4ff 0.0%, #c6eeb2 100.0%);
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.3),10,0.0,0,2);
+}
+
+.voting_sidebtn1
+{
+-fx-background-color:#c1dde8;
+-fx-background-radius:30 30 30 30;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.1),10,0.0,0,2)
+}
+
+.voting_sidebtn2:hover
+{
+-fx-background-color:white;
+-fx-text-fill:black;
+}
+
+.cardPane
+{
+-fx-background-color:white;
+-fx-background-radius:30 30 30 30;
+}
+
+
+.user_btn{
+-fx-background-color:#f26b6b;
+}
+
+.imageButton
+{
+-fx-background-color:Yellow;
+-fx-background-radius:30 30 30 30;
+}
+
+.Exitbtn
+{
+-fx-background-color:Red;
+fx-background-radius:30 30 30 30;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.1),10,0.0,0,2)
+}
+
+.setPanelred
+{
+-fx-background-color:blue;
+-fx-text-fill:white;
+}
+
+.textbox2{
+-fx-background-color:white;
+}
+.loginBack
+{
+-fx-background-color:#f5e1dd;
+}
+
+.searchbtn
+{
+-fx-background-color:#8675e4;
+}
+.combox
+{
+-fx-background-color:white;
+}
+
+.gradient
+{
+-fx-background-color:linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #eeedf5fc 0.0%, #ebe9ff75 100.0%)
+}
+
+.Expenditure1:hover
+{
+-fx-background-color:Yellow;
+-fx-text-fill:black;
+}
+
+
+
+
+
+
+
+
+.loginpage1{
+-fx-background-color: white;
+}
+
+.loginbackpane{
+-fx-background-color:white;
+-fx-border-width: 1px;
+-fx-background-radius: 30 30 30 30;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.3),10,0.0,0,5)
+}
+
+.imageviewer{
+-fx-background-radius: 30 30 30 30;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.3),10,0.0,0,5)
+}
+
+.voterpane1{
+-fx-background-color:#08064f;
+-fx-background-radius: 30 30 30 30;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.3),10,0.0,0,5)
+}
+
+.voterpane2{
+-fx-background-color:#08064f;
+/*-fx-background-radius: 30 30 30 30;*/
+/*-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.3),10,0.0,0,5)*/
+}
+
+.voterpane3{
+-fx-background-color:#2bf5bb;
+-fx-background-radius: 30 30 30 30;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.3),10,0.0,0,5)
+}
+
+.voterpane4{
+-fx-background-color:#fcd5b4;
+-fx-background-radius: 30 30 30 30;
+-fx-effect: dropshadow(gaussian,rgba(0,0,0,0.3),10,0.0,0,5)
+}
+
+.chart-bar {
+    -fx-font-weight: bold; /* Set font weight to bold */
+    -fx-text-fill: white; /* Set text color to white */
+}
+
+
+.white_shadow
+{
+ -fx-effect: dropshadow(gaussian, white, 10, 0.5, 0, 5);
+ -fx-background-radius: 30 30 30 30;
+}
