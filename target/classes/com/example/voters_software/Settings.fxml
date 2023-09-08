@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #08064f; -fx-border-radius: 30;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.voters_software.Settings">
+   <children>
+      <TextField fx:id="canPositiontxt" layoutX="61.0" layoutY="80.0" prefHeight="45.0" prefWidth="262.0" />
+      <TextField fx:id="Indextxt" layoutX="62.0" layoutY="213.0" prefHeight="55.0" prefWidth="262.0" />
+      <Label layoutX="54.0" layoutY="41.0" text="CANDIDATES  POSITION" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="175.0" text="DISPLAY INDEX" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Pane layoutX="344.0" layoutY="12.0" prefHeight="376.0" prefWidth="241.0" style="-fx-background-color: white; -fx-border-radius: 20; -fx-background-radius: 20;" styleClass="white_shadow" stylesheets="@Css.css">
+         <children>
+            <Label layoutX="39.0" layoutY="17.0" text="DESCRIPTION" textFill="#e10000" underline="true">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="2.0" layoutY="62.0" prefHeight="17.0" prefWidth="216.0" text=" The Candidate Position Allows">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="119.0" text="This Help The Admin To">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="2.0" layoutY="140.0" text=" Decide Which Position To">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="6.0" layoutY="158.0" text="To Vote For In The Voting">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="4.0" layoutY="81.0" prefHeight="17.0" prefWidth="216.0" text=" Allows You To Chose The Candidate">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="177.0" text="Section">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="3.0" layoutY="97.0" prefHeight="17.0" prefWidth="216.0" text="Positions Which You To Display .">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button layoutX="121.0" layoutY="318.0" mnemonicParsing="false" onAction="#selectPosition" prefHeight="45.0" prefWidth="105.0" style="-fx-background-color: blue;" text="SUBMIT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

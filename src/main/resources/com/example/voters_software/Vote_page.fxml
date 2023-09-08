@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane1" prefHeight="571.0" prefWidth="891.0" styleClass="voterpane2" stylesheets="@Css.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.voters_software.Vote_Page">
+   <children>
+      <Pane prefHeight="39.0" prefWidth="891.0" styleClass="setPanelred" stylesheets="@Css.css" />
+      <Pane layoutX="8.0" layoutY="147.0" prefHeight="335.0" prefWidth="181.0" stylesheets="@Css.css">
+         <children>
+            <Button fx:id="AddCandidatesButton" layoutX="1.0" layoutY="50.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="174.0" style="-fx-background-radius: 30;" stylesheets="@Css.css" text="ADD CANIDATE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="setPanelred" />
+                  <String fx:value="effect_btn" />
+               </styleClass>
+            </Button>
+            <Button fx:id="removeCandidateButton" layoutY="135.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="174.0" style="-fx-background-radius: 30;" stylesheets="@Css.css" text="SETTINGS">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="setPanelred" />
+                  <String fx:value="effect_btn" />
+               </styleClass>
+            </Button>
+            <Button fx:id="refreshButton" layoutX="2.0" layoutY="230.0" mnemonicParsing="false" onAction="#clearPanesAndDatabase" prefHeight="54.0" prefWidth="174.0" style="-fx-background-radius: 30;" stylesheets="@Css.css" text="REMOVE ALL">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="setPanelred" />
+                  <String fx:value="effect_btn" />
+               </styleClass>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="2.0" layoutY="53.0" prefHeight="82.0" prefWidth="194.0" styleClass="voterpane2" stylesheets="@Css.css">
+         <children>
+            <Label fx:id="timerlbl" layoutX="71.0" layoutY="54.0" onDragDetected="#timer" text="Time" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Button layoutX="14.0" layoutY="13.0" mnemonicParsing="false" onAction="#Starts" prefHeight="36.0" prefWidth="70.0" stylesheets="@Css.css" text="Start">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="setPanelred" />
+                  <String fx:value="effect_btn" />
+               </styleClass>
+            </Button>
+         </children></Pane>
+      <ImageView fitHeight="53.0" fitWidth="50.0" layoutX="261.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Java-Resources/MyJavaWorks/2198921%20(5).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="625.0" layoutY="95.0" text="Position" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="772.0" layoutY="95.0" text="Vote" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="487.0" layoutY="95.0" text="Department" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="336.0" layoutY="93.0" text="Full Name" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="242.0" layoutY="95.0" text="Photo" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button layoutX="99.0" layoutY="66.0" mnemonicParsing="false" onAction="#End" prefHeight="36.0" prefWidth="70.0" text="End">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <styleClass>
+            <String fx:value="setPanelred" />
+            <String fx:value="effect_btn" />
+         </styleClass>
+      </Button>
+      <Label layoutX="322.0" layoutY="45.0" prefHeight="43.0" prefWidth="485.0" text="Candidates On General Level" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <Pane fx:id="Voter_Pane" layoutX="239.0" layoutY="135.0" prefHeight="420.0" prefWidth="631.0" style="-fx-background-radius: 30; -fx-border-color: white; -fx-border-radius: 30; -fx-border-width: 3;" />
+      <Button layoutX="8.0" layoutY="482.0" mnemonicParsing="false" onAction="#onNextButtonClick" prefHeight="82.0" prefWidth="194.0" style="-fx-background-color: orange;" text="Vote" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

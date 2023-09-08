@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="UserRegisterMain" prefHeight="549.0" prefWidth="856.0" styleClass="voterpane2" stylesheets="@Css.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.voters_software.User_Register">
+   <children>
+      <Pane layoutX="55.0" layoutY="65.0" prefHeight="461.0" prefWidth="777.0" style="-fx-background-color: white; -fx-background-radius: 30;" stylesheets="@Css.css">
+         <children>
+            <Label layoutX="408.0" layoutY="56.0" text="Number :">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Usernametxt" alignment="CENTER" layoutX="124.0" layoutY="265.0" prefHeight="54.0" prefWidth="233.0" promptText="Name" styleClass="textbox2" stylesheets="@Css.css">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="Useragetxt" alignment="CENTER" layoutX="119.0" layoutY="185.0" prefHeight="50.0" prefWidth="244.0" promptText="Age" styleClass="textbox2" stylesheets="@Css.css">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="Userpartytxt" alignment="CENTER" layoutX="121.0" layoutY="47.0" prefHeight="54.0" prefWidth="233.0" promptText="Party" styleClass="textbox2" stylesheets="@Css.css">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="UserNumbertxt" alignment="CENTER" layoutX="499.0" layoutY="41.0" prefHeight="50.0" prefWidth="228.0" promptText="Tel" styleClass="textbox2" stylesheets="@Css.css">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="16.0" layoutY="143.0" text=" Password :">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Userpasswordtxt" alignment="CENTER" layoutX="122.0" layoutY="118.0" prefHeight="52.0" prefWidth="234.0" promptText="Password" styleClass="textbox2" stylesheets="@Css.css">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </TextField>
+            <Button fx:id="Usersavebtn" layoutX="63.0" layoutY="359.0" mnemonicParsing="false" onAction="#onSavebtn" prefHeight="32.0" prefWidth="359.0" stylesheets="@Css.css" text="Save">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="setPanelred" />
+                  <String fx:value="effect_btn" />
+               </styleClass>
+            </Button>
+            <Button fx:id="Userclearbtn" layoutX="66.0" layoutY="411.0" mnemonicParsing="false" onAction="#onUserclearbtn" prefHeight="32.0" prefWidth="359.0" stylesheets="@Css.css" text="Clear">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="setPanelred" />
+                  <String fx:value="effect_btn" />
+               </styleClass>
+            </Button>
+            <Label layoutX="410.0" layoutY="135.0" text=" Position :">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Userpositiontxt" alignment="CENTER" layoutX="502.0" layoutY="112.0" prefHeight="54.0" prefWidth="231.0" promptText="Positioin" styleClass="textbox2" stylesheets="@Css.css">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="409.0" layoutY="201.0" text="Gender :">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Usergendertxt" alignment="CENTER" layoutX="504.0" layoutY="183.0" prefHeight="49.0" prefWidth="231.0" promptText="Gender" styleClass="textbox2" stylesheets="@Css.css">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="Useremailtxt" alignment="CENTER" layoutX="503.0" layoutY="258.0" prefHeight="52.0" prefWidth="236.0" promptText="Email" styleClass="textbox2" stylesheets="@Css.css">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </TextField>
+            <Label layoutX="425.0" layoutY="337.0" lineSpacing="12.0" text="Role  : " textFill="#070000">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </padding>
+            </Label>
+            <Label layoutX="47.0" layoutY="282.0" text=" Name :" textFill="#141313">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.0" layoutY="209.0" text=" Age :">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="43.0" layoutY="63.0" text=" Party :">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="273.0" layoutY="-44.0" text="USER REGISTRATION" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="424.0" layoutY="279.0" text="Email :">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="Roletxt" layoutX="501.0" layoutY="330.0" prefHeight="35.0" prefWidth="250.0" stylesheets="@Css.css" />
+            <Line endX="118.0" layoutX="230.0" layoutY="105.0" startX="-114.0" />
+            <Line endX="119.0" layoutX="236.0" layoutY="174.0" startX="-114.0" />
+            <Line endX="100.0" layoutX="253.0" layoutY="240.0" startX="-129.6666717529297" />
+            <Line endX="100.0" layoutX="250.0" layoutY="323.0" startX="-131.0" />
+            <Line endX="134.0" layoutX="593.0" layoutY="95.0" startX="-100.0" />
+            <Line endX="100.0" layoutX="633.0" layoutY="171.0" startX="-130.66668701171875" />
+            <Line endX="122.0" endY="-2.0" layoutX="609.0" layoutY="238.0" startX="-100.0" />
+            <Line endX="116.33331298828125" layoutX="623.0" layoutY="316.0" startX="-121.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
